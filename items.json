@@ -1,0 +1,58 @@
+[
+    {
+        "item": "Old World Tech",
+        "locationClass": ["Commercial", "Industrial", "Medical", "Military", "Education"]
+    },
+    {
+        "item": "Medicine",
+        "locationClass": ["Residential", "Commercial", "Medical"]
+    },
+    {
+        "item": "Weapon",
+        "locationClass": ["Commercial", "Agriculture", "Military"]
+    },
+    {
+        "item": "Holotape",
+        "locationClass": ["Residential", "Commercial", "Industrial", "Medical", "Agriculture", "Military", "Education"]
+    },
+    {
+        "item": "Schematics",
+        "locationClass": ["Industrial", "Education"]
+    },
+    {
+        "item": "Records",
+        "locationClass": ["Residential", "Commercial", "Industrial", "Medical", "Military", "Education"]
+    },
+    {
+        "item": "Medical Equipment",
+        "locationClass": ["Medical"]
+    },
+    {
+        "item": "Supplies",
+        "locationClass": ["Residential", "Commercial", "Medical", "Agriculture", "Military"]
+    },
+    {
+        "item": "Food",
+        "locationClass": ["Residential", "Commercial", "Agriculture"]
+    },
+    {
+        "item": "Chemicals",
+        "locationClass": ["Industrial", "Agriculture", "Education"]
+    },
+    {
+        "item": "Biological Samples",
+        "locationClass": ["Medical", "Agriculture", "Education"]
+    },
+    {
+        "item": "Parts",
+        "locationClass": ["Commercial", "Industrial", "Agriculture", "Military"]
+    },
+    {
+        "item": "Tools",
+        "locationClass": ["Industrial", "Agriculture", "Military"]
+    },
+    {
+        "item": "Power Source",
+        "locationClass": ["Industrial", "Military"]
+    }
+]

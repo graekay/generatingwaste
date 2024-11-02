@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest Generator</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quests.html" class="active">Quest Generator</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Centered container with black border -->
+    <div class="quest-generator">
+        <h1>Quest Generator</h1>
+
+        <!-- Faction table container -->
+        <table class="faction-table" id="factionColumn">
+            <thead>
+                <tr>
+                    <th>Faction</th>
+                    <th>Friendly</th>
+                    <th>Neutral</th>
+                    <th>Hostile</th>
+                </tr>
+            </thead>
+            <tbody id="faction-body">
+                <!-- Faction rows will be generated here -->
+            </tbody>
+        </table>
+
+    <!-- Quest Type Selector -->
+    <select id="questTypeDropdown">
+        <option value="Retrieve">Retrieve</option>
+        <option value="Rescue">Rescue</option>
+        <option value="Escort">Escort</option>
+        <option value="Eliminate">Eliminate</option>
+        <option value="Random">Random</option>
+    </select>
+
+    <!-- Generate Quest Button -->
+    <button id="generateQuestButton">Generate Quest</button>
+
+    <!-- Quest Display Area -->
+    <div id="questDisplay"></div>
+
+        <!-- Clear Button -->
+        <button id="clearButton">Clear All</button>
+    </div>
+
+    <!-- Include JavaScript -->
+    <script src="quests.js"></script>
+</body>
+</html>
