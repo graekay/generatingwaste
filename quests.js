@@ -123,7 +123,7 @@ function generateQuest() {
         Retrieve: `Retrieve the ${questItem.item} for the ${questFaction} from ${targetLocation.type}. Size: ${targetLocation.size} Class: ${targetLocation.class}.`,
         Rescue: `Rescue the ${questFaction} ${questNPC.name} from the ${targetFaction} at ${targetLocation.size} ${targetLocation.class} ${targetLocation.type}.`,
         Escort: `Escort the ${questFaction} ${questNPC.name} from ${questLocation.type} to ${targetLocation.type} through ${targetFaction} territory.`,
-        Eliminate: `Eliminate ${targetNPC.name} at ${targetLocation.type} on behalf of ${questFaction}.`
+        Eliminate: `Eliminate ${targetFaction} ${targetNPC.name} at ${targetLocation.type} on behalf of ${questFaction}.`
     };
 
     // Display quest, selecting random type if "Random" is chosen
