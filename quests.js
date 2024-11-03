@@ -120,7 +120,7 @@ function generateQuest() {
     const targetLocation = getRandomElement(data.suitableLocations);
 
     const questDetails = {
-        Retrieve: `Retrieve the ${questItem.item} for the ${questFaction} from ${targetLocation.type}. Size: ${targetLocation.size} Class: ${targetLocation.class}.`,
+        Retrieve: `Retrieve the ${questItem.item} for the ${questFaction} from ${targetLocation.size} ${targetLocation.class} ${targetLocation.type}.`,
         Rescue: `Rescue the ${questFaction} ${questNPC.name} from the ${targetFaction} at ${targetLocation.size} ${targetLocation.class} ${targetLocation.type}.`,
         Escort: `Escort the ${questFaction} ${questNPC.name} from ${questLocation.size} ${questLocation.class} ${questLocation.type} to ${targetLocation.size} ${targetLocation.class} ${targetLocation.type} through ${targetFaction} territory.`,
         Eliminate: `Eliminate ${targetFaction} ${targetNPC.name} at ${targetLocation.size} ${targetLocation.class} ${targetLocation.type} on behalf of ${questFaction}.`

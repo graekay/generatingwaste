@@ -1,4 +1,3 @@
-
 header {
     background-color: #325886;
     color: #FEF265;
@@ -9,12 +8,13 @@ header {
 body {
     background-color: #447AB9;
 }
+
 header nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 header nav ul li {
