@@ -1,11 +1,14 @@
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #325886;
+    color: #FEF265;
     padding: 1em;
     text-align: center;
 }
 
+body {
+    background-color: #447AB9;
+}
 header nav ul {
     list-style: none;
     margin: 0;
@@ -30,19 +33,22 @@ header nav a:hover {
 /* Faction table styles */
 .faction-table {
     border: 1px solid #000;
+    border-radius: 10px;
     border-collapse: collapse;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
+    background-color: #82A7D6;
 }
 
 .faction-table th, .faction-table td {
     border: 1px solid #000;
+    border-radius: 10px;
     padding: 5px;
     text-align: center;
 }
 
 .faction-table td {
-    width: 25%;
+    width: 100%;
 }
 
 .faction-table td input[type="radio"] {
@@ -74,10 +80,21 @@ header nav a:hover {
 
 /* Quest generator container */
 .quest-generator {
-    width: 80%;
+    width:500px;
     margin: 5px auto;
     padding: 5px;
     border: 2px solid #000;
+    border-radius: 10px;
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: #FEF265;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 3px;
+    margin-block-end: 3px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
 }
