@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fallout 2D20 Generators</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fallout 2D20 Generators</h1>
+    </header>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quests.html">Quest Generator</a></li>
+                <li><a href="scavenge.html">Scavenging Generator</a></li>
+                <li><a href="holotapes.html">Holotapes</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Holotapes</h2>
+                <div class="section-content">
+                    <div class="app">
+                        <aside class="sidebar">
+                            <select id="hashtag-filter" title="Hashtag Filter">
+                                <option value="">All</option>
+                                <!-- Populate with hashtags -->
+                            </select>
+                            <div id="logs">
+                                <!-- List of past logs -->
+                            </div>
+                        </aside>
+                        <main class="main-content">
+                            <input type="text" id="title" placeholder="Title">
+                            <textarea id="content" placeholder="Your log..."></textarea>
+                            <input type="text" id="hashtags" placeholder="Hashtags (comma separated)">
+                            <button id="save-btn">Save</button>
+                            <button id="clear-btn">Clear</button>
+                        </main>
+                    </div>
+                    <script src="js/holotapes.js"></script>
+                </div>
+            </section>
+        </main>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quests.html">Quest Generator</a></li>
+                <li><a href="scavenge.html">Scavenging Generator</a></li>
+                <li><a href="holotapes.html">Holotapes</a></li>
+            </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,145 @@
+/* styles.css */
+.navbar{
+    background-color: #325886;
+    border: 2px solid #FEF265;
+    padding: 1px;
+    text-align: left;
+    width: 100%;
+    max-width: 250px;
+    margin: 0;
+}
+header nav ul {
+    list-style-type: square;
+    padding: 1; 
+    margin: 1; 
+    display: flex;
+    flex-direction: column;
+}
+header nav ul li {
+    color:#FEF265;
+    margin-bottom: 20px;
+}
+header nav ul li:active {
+    color:#447AB9;
+}
+.heading {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+body {
+    background-color: #447AB9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+main{
+    margin: 10px;
+}
+.app {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+    flex: 1;
+}
+
+#sidebar {
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+#main-content {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title, #content, #hashtags {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+#save-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Additional styles */
+.faction-table {
+    border: 1px solid #000;
+    border-radius: 10px;
+    border-collapse: collapse;
+    width: 95%;
+    margin: 0 auto;
+    background-color: #82A7D6;
+}
+
+.faction-table th, .faction-table td {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.faction-table td {
+    width: 100%;
+}
+
+.faction-table td input[type="radio"] {
+    display: block;
+    margin: 0 auto;
+}
+
+.faction-table input[type="radio"] {
+    display: block;
+    margin: 0 auto;
+}
+
+.faction-table label {
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.faction-table .friendly {
+    width: 10%;
+}
+
+.faction-table .neutral {
+    width: 10%;
+}
+
+.faction-table .hostile {
+    width: 10%;
+}
+
+/* Quest generator container */
+.quest-generator {
+    width: 500px;
+    margin: 5px auto;
+    padding: 5px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #FEF265;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin: 0px;
+    font-weight: bold;
+}

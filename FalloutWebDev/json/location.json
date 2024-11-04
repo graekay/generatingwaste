@@ -1,0 +1,142 @@
+[
+    {
+        "class": "Residential",
+        "size": "Tiny",
+        "type": "Shack"
+    },
+    {
+        "class": "Residential",
+        "size": "Small",
+        "type": "House"
+    },
+    {
+        "class": "Residential",
+        "size": "Medium",
+        "type": "Townhouse"
+    },
+    {
+        "class": "Residential",
+        "size": "Large",
+        "type": "Apartment"
+    },
+    {
+        "class": "Commercial",
+        "size": "Tiny",
+        "type": "Stand"
+    },
+    {
+        "class": "Commercial",
+        "size": "Small",
+        "type": "Store"
+    },
+    {
+        "class": "Commercial",
+        "size": "Medium",
+        "type": "Strip Mall"
+    },
+    {
+        "class": "Commercial",
+        "size": "Large",
+        "type": "Mall"
+    },
+    {
+        "class": "Industrial",
+        "size": "Tiny",
+        "type": "Workshop"
+    },
+    {
+        "class": "Industrial",
+        "size": "Small",
+        "type": "Garage"
+    },
+    {
+        "class": "Industrial",
+        "size": "Medium",
+        "type": "Mill"
+    },
+    {
+        "class": "Industrial",
+        "size": "Large",
+        "type": "Factory"
+    },
+    {
+        "class": "Medical",
+        "size": "Tiny",
+        "type": "First Aid Station"
+    },
+    {
+        "class": "Medical",
+        "size": "Small",
+        "type": "Drug Store"
+    },
+    {
+        "class": "Medical",
+        "size": "Medium",
+        "type": "Clinic"
+    },
+    {
+        "class": "Medical",
+        "size": "Large",
+        "type": "Hospital"
+    },
+    {
+        "class": "Agriculture",
+        "size": "Tiny",
+        "type": "Farmers Stand"
+    },
+    {
+        "class": "Agriculture",
+        "size": "Small",
+        "type": "Farmers Market"
+    },
+    {
+        "class": "Agriculture",
+        "size": "Medium",
+        "type": "Meat Packer"
+    },
+    {
+        "class": "Agriculture",
+        "size": "Large",
+        "type": "Grocery Store"
+    },
+    {
+        "class": "Military",
+        "size": "Tiny",
+        "type": "Check Point"
+    },
+    {
+        "class": "Military",
+        "size": "Small",
+        "type": "Outpost"
+    },
+    {
+        "class": "Military",
+        "size": "Medium",
+        "type": "Camp"
+    },
+    {
+        "class": "Military",
+        "size": "Large",
+        "type": "Base"
+    },
+    {
+        "class": "Education",
+        "size": "Tiny",
+        "type": "Daycare"
+    },
+    {
+        "class": "Education",
+        "size": "Small",
+        "type": "Elementary School"
+    },
+    {
+        "class": "Education",
+        "size": "Medium",
+        "type": "High School"
+    },
+    {
+        "class": "Education",
+        "size": "Large",
+        "type": "University"
+    }
+]

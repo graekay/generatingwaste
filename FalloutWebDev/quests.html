@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fallout 2D20 Generators</h1>
+    </header>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quests.html">Quest Generator</a></li>
+                <li><a href="scavenge.html">Scavenging Generator</a></li>
+                <li><a href="holotapes.html">Holotapes</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Quest Generator</h2>
+                <div class="section-content">
+                    <div class="quest-generator">
+                        <table class="faction-table" id="factionColumn">
+                            <thead>
+                                <tr>
+                                    <th>Faction</th>
+                                    <th>Friendly</th>
+                                    <th>Neutral</th>
+                                    <th>Hostile</th>
+                                </tr>
+                            </thead>
+                        <tbody id="faction-body">
+                            <!-- Faction rows will be generated here -->
+                        </tbody>
+                    </table>
+            
+                <!-- Quest Type Selector -->
+                <select id="questTypeDropdown" title="Quest Type">
+                    <option value="Retrieve">Retrieve</option>
+                    <option value="Rescue">Rescue</option>
+                    <option value="Escort">Escort</option>
+                    <option value="Eliminate">Eliminate</option>
+                    <option value="Random">Random</option>
+                </select>
+            
+                <!-- Generate Quest Button -->
+                <button id="generateQuestButton">Generate Quest</button>
+            
+                <!-- Quest Display Area -->
+                <div class="result"></div>
+            
+                    <!-- Clear Button -->
+                    <button id="clearButton">Clear</button>
+                </div>
+                    <script src="js/quests.js" defer></script>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

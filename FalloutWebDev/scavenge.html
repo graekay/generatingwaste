@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fallout 2D20 Generators</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fallout 2D20 Generators</h1>
+    </header>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quests.html">Quest Generator</a></li>
+                <li><a href="scavenge.html">Scavenging Generator</a></li>
+                <li><a href="holotapes.html">Holotapes</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Scavenge</h2>
+                <div class="section-content">
+                    <div>
+                        <label for="locationType">Location Type:</label>
+                        <select id="locationType">
+                            <option value="Residential">Residential</option>
+                            <option value="Commercial">Commercial</option>
+                            <option value="Industry">Industry</option>
+                            <option value="Medical">Medical</option>
+                            <option value="Agriculture">Agriculture</option>
+                            <option value="Military">Military</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="locationScale">Location Scale:</label>
+                        <select id="locationScale">
+                            <option value="Tiny">Tiny</option>
+                            <option value="Small">Small</option>
+                            <option value="Average">Average</option>
+                            <option value="Large">Large</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="degreeOfSearch">Degree of Search:</label>
+                        <select id="degreeOfSearch">
+                            <option value="Untouched">Untouched</option>
+                            <option value="Partly Searched">Partly Searched</option>
+                            <option value="Mostly Searched">Mostly Searched</option>
+                            <option value="Heavily Searched">Heavily Searched</option>
+                        </select>
+                    </div>
+                    <button onclick="generateLocation()">Generate Location</button>
+                    <div class="result"></div>
+                    <script src="js/scavenge.js"></script>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
